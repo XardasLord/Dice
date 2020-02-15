@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0948152-C7B2-4354-AE52-E208A2692BB5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kości</RootNamespace>
+    <AssemblyName>Kości</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formy - układy\Czwórki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Czwórki.Designer.cs">
+      <DependentUpon>Czwórki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\DużyStrit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\DużyStrit.Designer.cs">
+      <DependentUpon>DużyStrit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Dwójki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Dwójki.Designer.cs">
+      <DependentUpon>Dwójki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Figury.cs" />
+    <Compile Include="Formy\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Full.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Full.Designer.cs">
+      <DependentUpon>Full.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Generał.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Generał.Designer.cs">
+      <DependentUpon>Generał.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy\Gra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\Gra.Designer.cs">
+      <DependentUpon>Gra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gracz.cs" />
+    <Compile Include="Formy - układy\Jedynki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Jedynki.Designer.cs">
+      <DependentUpon>Jedynki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Kareta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Kareta.Designer.cs">
+      <DependentUpon>Kareta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy\JakGrać.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\JakGrać.Designer.cs">
+      <DependentUpon>JakGrać.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Losowanie.cs" />
+    <Compile Include="Formy - układy\MałyStrit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\MałyStrit.Designer.cs">
+      <DependentUpon>MałyStrit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Piątki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Piątki.Designer.cs">
+      <DependentUpon>Piątki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rozgrywka.cs" />
+    <Compile Include="Formy - układy\Szansa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Szansa.Designer.cs">
+      <DependentUpon>Szansa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Szóstki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Szóstki.Designer.cs">
+      <DependentUpon>Szóstki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Trójka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Trójka.Designer.cs">
+      <DependentUpon>Trójka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\Trójki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\Trójki.Designer.cs">
+      <DependentUpon>Trójki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\UkładyPojedyńcze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\UkładyPojedyńcze.Designer.cs">
+      <DependentUpon>UkładyPojedyńcze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy - układy\UkładyZłożone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy - układy\UkładyZłożone.Designer.cs">
+      <DependentUpon>UkładyZłożone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy\Ustawienia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\Ustawienia.Designer.cs">
+      <DependentUpon>Ustawienia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formy\ZasadyGry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formy\ZasadyGry.Designer.cs">
+      <DependentUpon>ZasadyGry.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Formy - układy\Czwórki.resx">
+      <DependentUpon>Czwórki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\DużyStrit.resx">
+      <DependentUpon>DużyStrit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Dwójki.resx">
+      <DependentUpon>Dwójki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Full.resx">
+      <DependentUpon>Full.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Generał.resx">
+      <DependentUpon>Generał.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\Gra.resx">
+      <DependentUpon>Gra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Jedynki.resx">
+      <DependentUpon>Jedynki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Kareta.resx">
+      <DependentUpon>Kareta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\MałyStrit.resx">
+      <DependentUpon>MałyStrit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Piątki.resx">
+      <DependentUpon>Piątki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\JakGrać.resx">
+      <DependentUpon>JakGrać.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Szansa.resx">
+      <DependentUpon>Szansa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Szóstki.resx">
+      <DependentUpon>Szóstki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Trójka.resx">
+      <DependentUpon>Trójka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\Trójki.resx">
+      <DependentUpon>Trójki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\UkładyPojedyńcze.resx">
+      <DependentUpon>UkładyPojedyńcze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy - układy\UkładyZłożone.resx">
+      <DependentUpon>UkładyZłożone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\Ustawienia.resx">
+      <DependentUpon>Ustawienia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formy\ZasadyGry.resx">
+      <DependentUpon>ZasadyGry.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ustawienia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kości1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zasadygrytło1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\układ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ustawienia2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jakgraćtło.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonMenu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rzutKośćmi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wpisanieWyniku.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
